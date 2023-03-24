@@ -53,6 +53,7 @@ command to see the file content: cat fruits.txt
 6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
 
 command: touch devops.txt | echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" > devops.txt
+
 Here, "touch" is used to create a file without opening the file.
 "|" is used to combine multiple commands
 "echo" is used to print the fruits and "-e" is used to interprete backslash escapes "\n". Without "-e", "\n" would have been interprated as literal string and was printed
