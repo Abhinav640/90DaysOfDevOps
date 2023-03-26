@@ -3,9 +3,9 @@
 Task 1:
 When the script is executed as
 
-./createDirectories.sh day 1 90
+./createDirectories.sh day 1 100
 
-then it creates 90 directories as day1 day2 day3 .... day90
+then it creates 90 directories as day1 day2 day3 .... day100
 
 Sol:
 
