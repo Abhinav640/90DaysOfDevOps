@@ -78,4 +78,25 @@ Command chgrp: chgrp <group name> example.txt
 ![image](https://user-images.githubusercontent.com/99756745/229984742-967fdd7f-bcf1-427d-b9cc-b403836f630c.png)
 
 
+Task 3:
+Access Control Lists (ACLs)
 
+Access Control Lists (ACLs) are a type of file permission system that provide more fine-grained control over file permissions than the standard file permissions model. It can be used for giving a specific user permission for a specific file.
+
+Let's say you want to give a specific user, write access to the file. You could add that user to the required group, but this would also give access to all other files owned by that group. With ACLs, you can grant that user write access to the specific file without giving access to any other files owned by that group.
+
+To add an ACL to a file or directory, you use the setfacl command.
+
+Command: setfacl -m u:<user name>:rw example.txt
+
+In this command, -m specifies that you are modifying the ACL, u:<user name> specifies that you are adding an ACL for user <user name>, and rw specifies that you are granting read and write permissions.
+
+You can also add ACLs for groups using the g:<group name> syntax, and you can remove ACLs using the -x option followed by the user or group and the permissions to remove.
+
+Once you've added an ACL to a file or directory, you can view the ACLs using the getfacl command.
+
+Command: getfacl example.txt
+
+![image](https://user-images.githubusercontent.com/99756745/229984907-83d09a85-e272-45e0-8acd-d1d820d94430.png)
+
+  
