@@ -34,3 +34,16 @@ After:
 Command: sudo systemctl stop jenkins
 
 ![image](https://user-images.githubusercontent.com/99756745/230063602-355a786e-8dbd-4820-a2f2-c9d2a2c9e3a9.png)
+
+Task 2.3:
+read about the commands systemctl vs service
+
+Both systemctl and service are commands that can be used to manage services on a Linux system, but they work differently and have different capabilities.
+
+service is an older command that is used to start, stop, restart, and query the status of system services. It is part of the SysV init system, which is used by some older Linux distributions. The command takes a service name and an action to perform on that service. For example, service docker status would show the status of the Docker service.
+
+systemctl is a newer command that is used to manage services in newer Linux distributions that use the systemd init system. It provides a wider range of capabilities than service, including the ability to enable or disable services to start at boot, and to view the logs of a service. The command also takes a service name and an action to perform on that service. For example, systemctl status docker would show the status of the Docker service.
+
+In summary, service is an older command that works with the SysV init system, while systemctl is a newer command that works with the systemd init system and provides more advanced functionality.
+
+
