@@ -34,5 +34,30 @@ Now I'll add it an commit it.
 ![image](https://user-images.githubusercontent.com/99756745/230303764-88b47c92-8c90-48c5-91f0-a6c18046884a.png)
 
 
+3. Push the changes back to the repository on GitHub
   
+To push the changes you need to create the access token first. for that you can go to settings >> Developer settings >> Personal access tokens >> Tokens classic >> Generate new token clessic
   
+![image](https://user-images.githubusercontent.com/99756745/230304411-3f12e471-951b-49d4-9d5c-f5da5b01ece0.png)
+
+![image](https://user-images.githubusercontent.com/99756745/230304587-030056c2-3a95-40db-ab8e-093c1d8fcfff.png)
+
+![image](https://user-images.githubusercontent.com/99756745/230304876-ef9dec2a-7724-4ef7-9607-492ca8662125.png)
+
+![image](https://user-images.githubusercontent.com/99756745/230305324-4cf45853-3ac3-4987-959c-8474e6468885.png)
+
+Now you can use this token as git password. 
+  
+Note: save this token some where as it visible only once. on page refresh it will be gone and if you don't remember the toke you have to generate new one.
+  
+user below command to push the changes.
+  
+Command: git push origin master
+  
+![image](https://user-images.githubusercontent.com/99756745/230306375-2f695acc-4e68-4467-b6c3-c90d59d86677.png)
+
+here password is your personal access token.
+
+And the changes are pushed to the github
+  
+![image](https://user-images.githubusercontent.com/99756745/230306641-57140ff9-82b1-41c1-ad51-fe6584ec8799.png)
