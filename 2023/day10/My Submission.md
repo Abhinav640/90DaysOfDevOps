@@ -47,3 +47,5 @@ While writing the file make sure you write these lines
 
 Restore the file to a previous version where the content should be “This is the bug fix in development branch”
 [Hint use git revert or reset according to your knowledge]
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/d54fb062-245f-48e0-a3ec-ba483124aa2e)
