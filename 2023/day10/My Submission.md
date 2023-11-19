@@ -18,4 +18,3 @@ Commit with message “ Added feature4 in development branch
 
 Restore the file to a previous version where the content should be “This is the bug fix in development branch” [Hint use git revert or reset according to your knowledge]
 
-
