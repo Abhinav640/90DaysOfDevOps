@@ -9,6 +9,12 @@ swithch to `dev` branch ( Make sure your commit message will reflect as "Added n
 - version01.txt should reflect at local repo first followed by Remote repo for review.
   [Hint use your knowledge of Git push and git pull commands here]
 
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/6e96a650-28cf-4821-b738-3309084a55f5)
+
+
+  ![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/7dc85d12-d127-45f4-86a7-4500b91a32dd)
+
+
 Add new commit in `dev` branch after adding below mentioned content in Devops/Git/version01.txt:
 While writing the file make sure you write these lines
 
