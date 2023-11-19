@@ -49,3 +49,31 @@ Restore the file to a previous version where the content should be “This is th
 [Hint use git revert or reset according to your knowledge]
 
 ![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/d54fb062-245f-48e0-a3ec-ba483124aa2e)
+
+
+## Task 2:
+
+- Demonstrate the concept of branches with 2 or more branches with screenshot.
+
+Before merging
+
+dev Branch
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/db290fcc-0a88-4800-bf8c-5484732bae97)
+
+- add some changes to `dev` branch and merge that branch in `main`
+
+Main Branch
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/425d979f-c308-45c6-b622-fb92e4367996)
+
+After merging into the main branch
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/989f26a8-7a75-40d3-90d8-794a9ed2aacd)
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/b60ccd50-5574-46f8-abde-3e906f5ace2c)
+
+
+- as a practice try git rebase too, see what difference you get.
+
+
