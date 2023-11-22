@@ -76,4 +76,12 @@ After merging into the main branch
 
 - as a practice try git rebase too, see what difference you get.
 
+The below is before git rebase
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/efbf6598-73f0-4491-8cdf-d69892111716)
+
+The below is after git rebase
+
+![image](https://github.com/Abhinav640/90DaysOfDevOps/assets/99756745/95e83613-4ff3-4d35-94a1-502d51a6e41f)
+
 
